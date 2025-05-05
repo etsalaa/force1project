@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Πρόγραμμα Διανομών</title>
+  <link rel="stylesheet" type="text/css" href="force1.css">
+</head>
+<body class="view">
+  <div class="container">
+    <img src= "force1-logo-d00.png"/>
+    <h1>Πρόγραμμα Διανομών</h1>
+
+    <!-- Επιλογή Ημερομηνίας -->
+    <div class="calendar-container">
+      <h2>Επιλέξτε Ημερομηνία</h2>
+      <input type="date" id="delivery-date" value="2025-04-28">
+    </div>
+    <hr>
+    <table>
+      <thead>
+       <tr>
+        <th colspan= "6" style="text-align: left;"> Πληροφορίες παράδοσης παραγγελίας</th>
+        <tr>
+          <th>Παραγγελία</th>
+          <th>Ώρα παράδοσης</th>
+          <th>Διεύθυνση παράδοσης</th>
+          <th>Πελάτης</th>
+          <th>Τηλέφωνο</th>
+          <th>Κατάσταση</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>#κωδικός1</td>
+          <td>ώρα1</td>
+          <td>διεύθυνση1</td>
+          <td>όνομα_πελάτη1</td>
+          <td>τηλέφωνο_πελάτη1</td>
+          <td>
+            <select class="status-select">
+              <option value="pending">Εκκρεμεί</option>
+              <option value="delivered">Ολοκληρώθηκε</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>#κωδικός2</td>
+          <td>ώρα2</td>
+          <td>διεύθυνση2</td>
+          <td>όνομα_πελάτη2</td>
+          <td>τηλέφωνο_πελάτη2</td>
+          <td>
+            <select class="status-select">
+              <option value="pending">Εκκρεμεί</option>
+              <option value="delivered">Ολοκληρώθηκε</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>#κωδικός3</td>
+          <td>ώαρα3</td>
+          <td>διεύθυνση3</td>
+          <td>όνομα_πελάτη3</td>
+          <td>τηλέφωνο_πελάτη3</td>
+          <td>
+            <select class="status-select">
+              <option value="pending">Εκκρεμεί</option>
+              <option value="delivered">Ολοκληρώθηκε</option>
+            </select>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
